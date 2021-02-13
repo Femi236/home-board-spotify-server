@@ -112,8 +112,8 @@ app.get("/callback", function (req, res) {
         res.redirect(
           "http://localhost:3000/#" +
             querystring.stringify({
-              access_token: access_token,
-              refresh_token: refresh_token,
+              access_token_spotify: access_token,
+              refresh_token_spotify: refresh_token,
             })
         );
       } else {
