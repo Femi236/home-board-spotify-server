@@ -1,0 +1,4 @@
+node_modules/
+
+.env
+/authorization_code/*
